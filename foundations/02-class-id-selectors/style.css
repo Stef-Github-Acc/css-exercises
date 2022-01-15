@@ -1,0 +1,7 @@
+.color_class {
+    color:pink;
+    @font-face {
+        font-family: 'DejaVu Sans', Verdana, sans-serif;
+        src: url(https://www.fontsquirrel.com/fonts/dejavu-sans);
+    }
+}
