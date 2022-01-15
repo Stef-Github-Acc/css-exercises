@@ -1,11 +1,17 @@
 
 /* CLASS SELECTOR */
+
 .color_class {
     background-color:rgb(255, 192, 203);
     @font-face {
         font-family: 'DejaVu Sans', Verdana, sans-serif;
         src: url(https://www.fontsquirrel.com/fonts/dejavu-sans);
     }
+}
+
+/* CLASS SELECTOR - Chaining two selectors*/
+.color_class.new_fontsize {
+    font-size: 24px;
 }
 
 /* ID SELECTOR */
